@@ -1,0 +1,24 @@
+<ion-view view-title="Login">
+	<ion-content has-subheader=":)">
+
+			
+
+			<div class="login container">
+				<form ng-submit="onSubmit()">
+					<div class="field">
+						<i class="icon ion-person"></i>
+						<input type="text" placeholder="Usuario" 
+							ng-model="user.usuario">
+					</div>
+					<div class="field">
+						<i class="icon ion-locked"></i>
+						<input type="text" placeholder="Clave" 
+							ng-model="user.clave">
+					</div>
+					<button type="submit">Ingresar</button>
+				</form>
+			</div>
+
+
+	</ion-content>
+</ion-view>

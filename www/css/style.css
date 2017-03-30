@@ -1,0 +1,43 @@
+/* Empty. Add your own CSS if you like */
+
+.login.container{
+	padding: 1rem;
+	/*position: fixed;*/
+	
+	top: 0;
+	bottom: 0;
+	height: 10rem;
+	margin: auto;
+}
+
+.login.container form{
+	background: #CCC;
+	padding: 1rem;
+}
+
+.login.container form .field{
+	display: flex;
+	justify-content: flex-start;
+	margin: .5rem 0;
+}
+
+.login.container form .field i{
+	font-size: 2rem;
+	margin-right: 1rem;
+}
+
+.login.container form .field input{
+	width: calc(100% - 2rem);
+	padding: 0 .5rem
+}
+
+.login.container form button{
+	width: 100%;
+	line-height: 2rem;
+	background: #000;
+	color: #FFF;
+	font-size: 1.2rem;
+	border: 0;
+	font-weight: bold;
+	box-shadow: none;
+}
